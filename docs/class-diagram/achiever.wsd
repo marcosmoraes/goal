@@ -1,0 +1,20 @@
+@startuml Achiever
+
+entity Achiever
+
+Achiever : uuid id
+Achiever : string name
+Achiever : string email
+Achiever : date created_at
+
+Achiever : create()
+Achiever : update()
+Achiever : list()
+Achiever : delete()
+
+Achiever : createGoal()
+Achiever : reachGoal()
+Achiever : listGoalsByStatus()
+Achiever : deleteGoal()
+
+@enduml

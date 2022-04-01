@@ -1,0 +1,11 @@
+@startuml "Goal"
+
+:Goal: -> (create the goal)
+:Goal: -> (modify the goal)
+:Goal: -> (list all goals by User)
+:Goal: -> (list an especific goal by User)
+:Goal: -> (show status of goal by User)
+:Goal: -> (update status)
+:Goal: -> (set goal finished date)
+
+@enduml

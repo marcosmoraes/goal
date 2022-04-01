@@ -1,0 +1,8 @@
+@startuml "User"
+
+:User: -> (create)
+:User: -> (update)
+:User: -> (getUserInfo)
+:User: -> (delete)
+
+@enduml

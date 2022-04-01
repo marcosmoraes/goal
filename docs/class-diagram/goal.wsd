@@ -1,0 +1,12 @@
+@startuml "Goal"
+
+entity Goal
+
+Goal : uuid id
+Goal : User user
+Goal : string description
+Goal : date start_date
+Goal : date finish_date
+Goal : boolean target
+
+@enduml
